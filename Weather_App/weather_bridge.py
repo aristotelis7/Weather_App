@@ -11,7 +11,7 @@ coords = {
     
 }
 
-# Μετατροπή ISO ημερομηνίας -> Ελληνική συντομογραφία ημέρας
+
 def greek_day_name(date_str):
     days_gr = ["Δευ", "Τρι", "Τετ", "Πεμ", "Παρ", "Σαβ", "Κυρ"]
     d = datetime.datetime.strptime(date_str, "%Y-%m-%d")
